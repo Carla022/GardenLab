@@ -1,4 +1,4 @@
-package Plant;
+package plants;
 
 public class CactusTest {
 }
