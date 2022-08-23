@@ -9,17 +9,24 @@ public class VenusFlytrap extends Plant {
 
 //    CONSTRUCTOR--------
 
-    public VenusFlytrap (String name, String category, double size, String colour, boolean canDrink, String canEat, boolean hasTriggerHair){
-        super (name,category, size,colour, canDrink);
+    public VenusFlytrap (String name, String category, double size, String colour, String thirst, String canEat, boolean hasTriggerHair){
+        super (name,category, size,colour, thirst);
         this.canEat = canEat;
         this.hasTriggerHair = hasTriggerHair;
 
     }
 
-//    PROPERTIES--------
+//    GETTERS + SETTERS--------
+
 
     public String canEat(){
         return "Mmm, I am full!";
+
+    }
+
+    public boolean isHasTriggerHair(){
+        return true;
+
     }
 
 

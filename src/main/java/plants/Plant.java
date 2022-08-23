@@ -8,17 +8,18 @@ public abstract class Plant {
     private String category;
     private double size;
     private String colour;
-    private boolean canDrink;
+
+    private String thirst;
 
 
 //    CONSTRUCTOR--------------
 
-    public Plant(String name, String category, double size, String colour, boolean canDrink) {
+    public Plant(String name, String category, double size, String colour, String thirst) {
         this.name = name;
         this.category = category;
         this.size = size;
         this.colour = colour;
-        this.canDrink = true;
+        this.thirst = thirst;
     }
 
 //    GETTERS + SETTERS----------
@@ -55,11 +56,12 @@ public abstract class Plant {
         this.colour = colour;
     }
 
-    public boolean canDrink() {
-        return canDrink;
-    }
+//    METHODS--------
 
-    public void setCanDrink(boolean canDrink) {
-        this.canDrink = canDrink;
+    public String Thirst() {
+        return "I am hydrated!";
+
     }
 }
+
+
