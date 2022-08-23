@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+
 public class VenusFlytrapTest {
     //
     private VenusFlytrap venusFlytrap;
@@ -36,9 +37,9 @@ public class VenusFlytrapTest {
     }
 
     @Test
-    public void hydration() {
+    public void hydrationStatus() {
 //        //When
-        String actual = venusFlytrap.Thirst();
+        String actual = venusFlytrap.getThirst();
         //Then
         String expected = "I am hydrated!";
 //       assertEquals(expected).isEqualTo(actual);
@@ -70,19 +71,10 @@ public class VenusFlytrapTest {
         assertEquals(expected, actual);
 
     }
-
+//need help creating a boolean test::
     @Test
-    public void canCheckIfPlantHasCloseTimer() {
-        assertEquals(venusFlytrap.isHasTriggerHair()).isEqualTo(true);
+    public boolean canCheckIfPlantHasCloseTimer() {
 
-
-
-            {
-//
-
-        }
-
-    }
 
 }
 

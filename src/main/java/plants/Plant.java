@@ -58,9 +58,12 @@ public abstract class Plant {
 
 //    METHODS--------
 
-    public String Thirst() {
-        return "I am hydrated!";
+    public String getThirst() {
+        return thirst;
+    }
 
+    public String setThirstStatus(){
+        return "I am hydrated!";
     }
 }
 
