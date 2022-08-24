@@ -4,8 +4,7 @@ import jdk.jfr.Category;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class VenusFlytrapTest {
@@ -72,10 +71,14 @@ public class VenusFlytrapTest {
 
     }
 //need help creating a boolean test::
-    @Test
-    public boolean canCheckIfPlantHasCloseTimer() {
+//    @Test
+//    public boolean canCheckIfPlantHasCloseTimer() {
+//        boolean actual = venusFlytrap.isHasTriggerHair();
+//        boolean expected = venusFlytrap.isHasTriggerHair();
+//        assertEquals(true, true);
+//    }
 
-
+/////////////////////////////////////
 }
 
 
